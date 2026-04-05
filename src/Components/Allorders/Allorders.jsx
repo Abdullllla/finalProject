@@ -1,0 +1,11 @@
+import React from 'react'
+
+export default function Allorders() {
+  return (
+   <div className="container">
+    <div className="bg-success p-6 my-5 text-center text-white">
+      <h2>Congrats</h2>
+    </div>
+   </div>
+  )
+}
