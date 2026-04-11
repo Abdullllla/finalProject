@@ -14,7 +14,7 @@ export default function Cart() {
   async function removeItem(id){
    let {data} = await deleteProductFromCart(id)
    console.log(data);
-    setNumOfCartItems(data?.numOfCartItems);
+  setNumOfCartItems(data?.numOfCartItems);
    setCartDetails(data)
   }
   
@@ -36,7 +36,7 @@ export default function Cart() {
   },[])
   return (
   <> 
-  {cartDetails.data ?<div className="container my-5">
+  {cartDetails?.data ?<div className="container my-5">
       <div className="mx-auto bg-main-light p-5">
         <h1 className='mb-3'>Cart Shop</h1>
         <div className="d-flex justify-content-between align-items-center">
