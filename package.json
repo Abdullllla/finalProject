@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "homepage": "http://Abdullllla.github.io/finalproject",
+    "homepage": "http://Abdullllla.github.io/finalProject",
     "@fortawesome/fontawesome-free": "^7.2.0",
     "@tanstack/react-query": "^5.95.2",
     "@tanstack/react-query-devtools": "^5.95.2",
